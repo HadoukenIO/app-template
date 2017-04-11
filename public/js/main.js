@@ -1,7 +1,7 @@
 //event listeners.
 document.addEventListener('DOMContentLoaded', function() {
     const ofVersion = document.querySelector('#of-version');
-    if (fin) {
+    if (typeof fin != 'undefined') {
         fin.desktop.System.getVersion(function(version) {
             ofVersion.innerText = version;
         });
