@@ -4,7 +4,7 @@ const openfinLauncher = require('openfin-launcher');
 const path = require('path');
 
 const port = process.env.npm_package_config_port || 5000;
-const target = 'http://127.0.0.1' + port;
+const target = 'http://localhost:' + port;
 const configPath = path.resolve('public/app.json');
 const serverParams = {
     port: port,
