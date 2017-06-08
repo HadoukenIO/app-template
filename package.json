@@ -1,12 +1,6 @@
 {
   "name": "openfin-template",
   "version": "0.0.0",
-  "config": {
-    "port": "5555"
-  },
-  "scripts": {
-    "start": "node launch"
-  },
   "devDependencies": {
     "@types/openfin": "^16.0.1",
     "live-server": "^1.2.0",
