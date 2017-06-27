@@ -21,7 +21,7 @@ function launchOpenFin() {
         },
         runtime: {
             arguments: '--remote-debugging-port=9090 --v=1 --enable-logging --debug',
-            version: 'beta'
+            version: 'community'
         },
         shortcut: {
             icon: target + '/favicon.ico'
