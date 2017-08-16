@@ -2,7 +2,7 @@
 document.addEventListener('DOMContentLoaded', () => {
 
     if (typeof fin != 'undefined') {
-	fin.desktop.main(onMain);
+        fin.desktop.main(onMain);
     } else {
         ofVersion.innerText = 'OpenFin is not available - you are probably running in a browser.';
     }
@@ -13,7 +13,7 @@ function onMain() {
     const app = fin.desktop.Application.getCurrent();
     fin.desktop.System.showDeveloperTools(app.uuid, app.uuid);
     fin.desktop.System.getVersion(version => {
-	const ofVersion = document.querySelector('#of-version');
-	ofVersion.innerText = version;	
+        const ofVersion = document.querySelector('#of-version');
+        ofVersion.innerText = version;
     });
 }

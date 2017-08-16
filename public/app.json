@@ -4,11 +4,12 @@
         "url": "http://localhost:5555/index.html",
         "uuid": "OpenfinPOC",
         "applicationIcon": "http://localhost:5555/favicon.ico",
-        "autoShow": true
+        "autoShow": true,
+        "saveWindowState": true
     },
     "runtime": {
         "arguments": "--remote-debugging-port=9090",
-        "version": "beta"
+        "version": "community"
     },
     "shortcut": {
         "company": "OpenFin",
