@@ -16,6 +16,10 @@ A simple unopinionated Hadouken application template.  The purpose of this repos
 
 * HTML 5 and ES6 Template with Hadouken integration. 
 
+#### Service Worker
+
+* Uses service worker to handle offline browsing.
+
 #### [Visual Studio code](https://code.visualstudio.com/) integration, thanks to @jcarter
 
 * Attach to debugger for in-editor break points, call stacks, and an interactive console
