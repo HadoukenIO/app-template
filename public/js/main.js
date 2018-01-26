@@ -20,4 +20,3 @@ function onMain() {
     ofVersion.innerText = version;
   });
 }
-

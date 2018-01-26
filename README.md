@@ -18,7 +18,7 @@ A simple unopinionated Hadouken application template.  The purpose of this repos
 
 #### Service Worker
 
-* Uses service worker to handle offline browsing.
+* Uses the [cache only](https://serviceworke.rs/strategy-cache-only.html) recipe found on the [Mozilla Service Worker Cookbok](https://serviceworke.rs/) to implement offline browsing.
 
 #### [Visual Studio code](https://code.visualstudio.com/) integration, thanks to @jcarter
 
