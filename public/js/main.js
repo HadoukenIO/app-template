@@ -1,6 +1,6 @@
-//event listeners.
 document.addEventListener('DOMContentLoaded', () => {
 
+    //Checking if running within OpenFin
     if (typeof fin != 'undefined') {
         fin.desktop.main(onMain);
     } else {
@@ -10,10 +10,37 @@ document.addEventListener('DOMContentLoaded', () => {
 
 //Once the DOM has loaded and the OpenFin API is ready
 function onMain() {
+    //Get a reference to the current Application.
     const app = fin.desktop.Application.getCurrent();
-    fin.desktop.System.showDeveloperTools(app.uuid, app.uuid);
+
+    //we will increment on child window creation.
+    let winNumber = 0;
+
+    //we get the current OpenFin version
     fin.desktop.System.getVersion(version => {
         const ofVersion = document.querySelector('#of-version');
         ofVersion.innerText = version;
+    });
+
+    //subscribing to the run-requested events will allow us to react to secondary launches, clicking on the icon once the Application is running for example.
+    //for this app we will launch child windows everytime the user clicks on the desktop.
+    app.addEventListener('run-requEsted', () => {
+        const win = fin.desktop.Window.getCurrent();
+        //Only launch new windows from the main window.
+        if (win.name === app.uuid) {
+            var cWin = new fin.desktop.Window({
+                name: `childWindow_${++winNumber}`,
+                url: location.href,
+                defaultWidth: 320,
+                defaultHeight: 320,
+                defaultTop: 10,
+                defaultLeft: 300,
+                autoShow: true
+            }, function () {
+               console.log('Child Window created');
+            }, function (error) {
+                console.log(error);
+            });
+        }
     });
 }
