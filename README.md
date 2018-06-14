@@ -1,10 +1,10 @@
 # Hadouken Application Template
 
-A simple unopinionated Hadouken application template.  The purpose of this repository is to allow users to get started with Hadouken immediately by providing a development setup that does not require initial configuration.  The setup has minimal dependencies and the feature set is intentionally limited. Any further configuration can be achieved by editing the `app.json` file: [Application Config](https://openfin.co/application-config/).
+A simple unopinionated Hadouken application template. The purpose of this repository is to allow users to get started with Hadouken immediately by providing a development setup that does not require initial configuration. The setup has minimal dependencies and the feature set is intentionally limited. Any further configuration can be achieved by editing the `app.json` file: [Application Config](https://openfin.co/application-config/).
 
 ### What you get:
 
-#### [Application-Launcher](https://www.npmjs.com/package/openfin-launcher) 
+#### [Application-Launcher](https://www.npmjs.com/package/openfin-launcher)
 
 * Automates the downloading and launching of the Hadouken Runtime.
 
@@ -14,7 +14,11 @@ A simple unopinionated Hadouken application template.  The purpose of this repos
 
 #### Basic HTML/Javascript Template
 
-* HTML 5 and ES6 Template with Hadouken integration. 
+* HTML 5 and ES6 Template with Hadouken integration.
+
+#### Service Worker
+
+* Uses the [network and cache](https://serviceworke.rs/strategy-network-or-cache.html) recipe found on the [Mozilla Service Worker Cookbok](https://serviceworke.rs/) to implement offline browsing.
 
 #### [Visual Studio code](https://code.visualstudio.com/) integration, thanks to @jcarter
 
