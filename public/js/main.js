@@ -27,7 +27,7 @@ function onMain() {
 
     //subscribing to the run-requested events will allow us to react to secondary launches, clicking on the icon once the Application is running for example.
     //for this app we will launch child windows everytime the user clicks on the desktop.
-    app.addEventListener('run-requEsted', () => {
+    app.addEventListener('run-requested', () => {
         const win = fin.desktop.Window.getCurrent();
         //Only launch new windows from the main window.
         if (win.name === app.uuid) {
