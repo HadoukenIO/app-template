@@ -11,9 +11,9 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
 
-//Once the DOM has loaded and the OpenFin API is ready
+//once the DOM has loaded and the OpenFin API is ready
 function onMain() {
-    //Get a reference to the current Application.
+    //get a reference to the current Application.
     const app = fin.desktop.Application.getCurrent();
 
     //we will increment on child window creation.
