@@ -2,7 +2,7 @@
   "name": "openfin-template",
   "version": "0.0.0",
   "devDependencies": {
-    "@types/openfin": "^16.0.1",
+    "@types/openfin": "^34.0.0",
     "live-server": "^1.2.0",
     "hadouken-js-adapter": "^0.34.3"
   },
