@@ -1,8 +1,8 @@
 const liveServer = require('live-server');
-const openfinLauncher = require('openfin-launcher');
+const openfinLauncher = require('hadouken-js-adapter');
 const path = require('path');
 
-const configPath = path.resolve('public/app.json');
+const manifestUrl = path.resolve('public/app.json');
 const serverParams = {
     root: path.resolve('public'),
     port: 5555,
@@ -12,7 +12,7 @@ const serverParams = {
 
 //Update our config and launch openfin.
 function launchOpenFin() {
-    openfinLauncher.launchOpenFin({ configPath })
+    openfinLauncher.launch({ manifestUrl })
     .then(() => process.exit())
     .catch(err => console.log(err));
 }
