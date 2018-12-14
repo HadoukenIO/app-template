@@ -8,8 +8,8 @@
         "saveWindowState": true
     },
     "runtime": {
-        "arguments": "--remote-debugging-port=9090",
-        "version": "community"
+        "arguments": "",
+        "version": "stable"
     },
     "shortcut": {
         "company": "OpenFin",

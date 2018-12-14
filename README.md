@@ -4,7 +4,7 @@ A simple unopinionated Hadouken application template. The purpose of this reposi
 
 ### What you get:
 
-#### [Application-Launcher](https://www.npmjs.com/package/openfin-launcher)
+#### [Hadouken download and instal](https://github.com/hadoukenio/js-adapter)
 
 * Automates the downloading and launching of the Hadouken Runtime.
 
