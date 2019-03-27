@@ -1,5 +1,5 @@
-//register service worker
-navigator.serviceWorker.register('../serviceworker.js');
+// uncomment line below to register offline cache service worker 
+// navigator.serviceWorker.register('../serviceworker.js');
 
 if (typeof fin !== 'undefined') {
     init();
