@@ -2,9 +2,9 @@
   "name": "openfin-template",
   "version": "0.0.0",
   "devDependencies": {
-    "@types/openfin": "^16.0.1",
-    "live-server": "^1.2.0",
-    "openfin-launcher": "^1.3.12"
+    "@types/openfin": "latest",
+    "hadouken-js-adapter": "latest",
+    "live-server": "latest"
   },
   "license": "Apache-2.0"
 }
