@@ -32,3 +32,11 @@ A simple unopinionated Hadouken application template. The purpose of this reposi
 * Install the dependencies: `cd app-template` & `npm install`
 * Start the live-server and launch the application: `npm start`
 * Add your Javascript code to `main.js` and your HTML to `index.html`
+
+## License
+The code in this repository is covered by the included license.
+
+However, if you run this code, it may call on the OpenFin RVM or OpenFin Runtime, which are covered by OpenFin's Developer, Community, and Enterprise licenses. You can learn more about OpenFin licensing at the links listed below or just email us at support@openfin.co with questions.
+
+https://openfin.co/developer-agreement/
+https://openfin.co/licensing/
