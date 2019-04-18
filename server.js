@@ -10,7 +10,7 @@ const serverParams = {
 };
 
 //To Launch the OpenFin Application we need a manifestUrl.
-const manifestUrl = `http://localhost:${serverParams.port}/app.json`;
+const manifestUrl = __dirname + '/app.json';
 
 //Start the server server
 liveServer.start(serverParams).on('listening', async () => {

@@ -1,8 +1,0 @@
-{
-    "json.schemas": [
-        {
-            "fileMatch": ["app.json"],
-            "url": "http://json.schemastore.org/openfin"
-        }
-    ]
-}

@@ -5,7 +5,8 @@
         "uuid": "OpenfinPOC",
         "applicationIcon": "http://localhost:5555/favicon.ico",
         "autoShow": true,
-        "saveWindowState": true
+        "saveWindowState": true,
+        "waitForPageLoad": false
     },
     "runtime": {
         "arguments": "",
