@@ -4,7 +4,7 @@ A simple unopinionated Hadouken application template. The purpose of this reposi
 
 ### What you get:
 
-#### [Hadouken download and instal](https://github.com/hadoukenio/js-adapter)
+#### [Hadouken download and install](https://github.com/hadoukenio/js-adapter)
 
 * Automates the downloading and launching of the Hadouken Runtime.
 
@@ -18,9 +18,9 @@ A simple unopinionated Hadouken application template. The purpose of this reposi
 
 #### Service Worker
 
-* Uses the [network and cache](https://serviceworke.rs/strategy-network-or-cache.html) recipe found on the [Mozilla Service Worker Cookbok](https://serviceworke.rs/) to implement offline browsing.
+* Uses the [network and cache](https://serviceworke.rs/strategy-network-or-cache.html) recipe found on the [Mozilla Service Worker Cookbook](https://serviceworke.rs/) to implement offline browsing.
 
-#### [Visual Studio code](https://code.visualstudio.com/) integration, thanks to @jcarter
+#### [Visual Studio Code](https://code.visualstudio.com/) integration, thanks to @jcarter
 
 * Attach to debugger for in-editor break points, call stacks, and an interactive console
 * Hadouken configuration ( `app.json` ) smart completion based on available parameters
