@@ -33,10 +33,24 @@ A simple unopinionated Hadouken application template. The purpose of this reposi
 * Start the live-server and launch the application: `npm start`
 * Add your Javascript code to `main.js` and your HTML to `index.html`
 
+## Contributing
+
+1. Fork it (<https://github.com/HadoukenIO/app-template/fork>)
+2. Create your feature branch (`git checkout -b feature/fooBar`)
+3. Read our [contribution guidelines](.github/CONTRIBUTING.md) and [Community Code of Conduct](https://www.finos.org/code-of-conduct)
+4. Commit your changes (`git commit -am 'Add some fooBar'`)
+5. Push to the branch (`git push origin feature/fooBar`)
+6. Create a new Pull Request
+
 ## License
-The code in this repository is covered by the included license.
+The code in this repository is distributed under the Apache License, Version 2.0.
 
 However, if you run this code, it may call on the OpenFin RVM or OpenFin Runtime, which are covered by OpenFin's Developer, Community, and Enterprise licenses. You can learn more about OpenFin licensing at the links listed below or just email us at support@openfin.co with questions.
 
+Copyright 2019 HadoukenIO
+
+SPDX-License-Identifier: Apache-2.0
+
 https://openfin.co/developer-agreement/
+
 https://openfin.co/licensing/
