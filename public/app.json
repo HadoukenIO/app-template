@@ -5,7 +5,19 @@
         "uuid": "OpenfinPOC",
         "applicationIcon": "http://localhost:5555/favicon.ico",
         "autoShow": true,
-        "saveWindowState": true
+        "saveWindowState": true,
+        "permissions": {
+            "System": {
+               "downloadAsset": true,
+               "launchExternalProcess": true,
+               "readRegistryValue": true,
+               "terminateExternalProcess": true,
+               "getAllExternalWindows": true
+            },
+            "ExternalWindow": {
+                "wrap": true
+            }
+        }
     },
     "runtime": {
         "arguments": "",
